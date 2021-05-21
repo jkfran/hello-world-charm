@@ -1,0 +1,15 @@
+# Copyright 2021 Fran
+# See LICENSE file for licensing details.
+name: hello-world
+description: |
+  Hello world charm created by Fran
+summary: |
+  Hello world charm created by Fran
+series: [kubernetes]
+
+resources:
+  site-image:
+    type: oci-image
+    description: Image used for the website.
+    auto-fetch: true
+    upstream-source: 'hello-world'
