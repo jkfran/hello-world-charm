@@ -2,9 +2,9 @@
 # See LICENSE file for licensing details.
 name: hello-world
 description: |
-  Hello world charm created by Fran
+  test charm created by Fran
 summary: |
-  Hello world charm created by Fran
+  test charm created by Fran
 series: [kubernetes]
 
 resources:
